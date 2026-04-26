@@ -23,3 +23,4 @@
 ```bash
 bash <(curl -sL https://a057.net/dows/tanzhen/install.sh | tr -d '\r')
 ```
+[长这样](https://a05.uk/z)
