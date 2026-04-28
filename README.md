@@ -26,6 +26,7 @@ bash <(curl -sL https://a057.net/dows/tanzhen/install.sh | tr -d '\r')
 [长这样](https://a05.uk/z)
 
 ### 更新日志：v0.02BETA
+0.~~又刷了贡献值~~ (bushi
 1.新增 /api 路径，返回JSON格式数据，如下
 ```text
 [
