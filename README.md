@@ -26,8 +26,11 @@ bash <(curl -sL https://a057.net/dows/tanzhen/install.sh | tr -d '\r')
 [长这样](https://a05.uk/z)
 
 ### 更新日志：v0.02BETA
+
 0.~~又刷了贡献值~~ (bushi
+
 1.新增 /api 路径，返回JSON格式数据，如下
+
 ```text
 [
   {
@@ -58,21 +61,33 @@ bash <(curl -sL https://a057.net/dows/tanzhen/install.sh | tr -d '\r')
   }
 ]
 ```
+
 [这里](https://tanzhen.a057.net/api)
+
 2.更新默认html页面
+
  1.增加Swap占用显示
+ 
  2.每项资源显示详细占用数值
-
-
+ 
 
 新安装的获取的是最新的版本
+
 之前安装过的需要手动去
+
 `https://node1-rn.a05777.uk:8443/dows/tanzhen/server-bin`
+
 下载新版本并且替换，客户端未改变
-新版htm
+
+新版html
+
 `https://node1-rn.a05777.uk:8443/dows/tanzhen/jiankong.html`
+
 旧版html&服务端
+
 `https://node1-rn.a05777.uk:8443/dows/tanzhen/server-bin2`
+
 `https://node1-rn.a05777.uk:8443/dows/tanzhen/jiankong.html2`
+
 
 开发经历：用Claude想偷懒，把代码丢给claude，没想到免费版额度不够，还是用的Gemini，上传新的服务端的时候SFTP掉了3次，编辑html的时候SSH掉了一次，哪家运营商：世界加钱可及
