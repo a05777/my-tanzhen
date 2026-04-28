@@ -24,3 +24,54 @@
 bash <(curl -sL https://a057.net/dows/tanzhen/install.sh | tr -d '\r')
 ```
 [长这样](https://a05.uk/z)
+
+### 更新日志：v0.02BETA
+1.新增 /api 路径，返回JSON格式数据，如下
+```text
+[
+  {
+    "id": 1,
+    "name": "传家宝 4c4g",
+    "line": "CN2GIA/9929/CMIN2",
+    "price": "12.25￥",
+    "expiry": "月付",
+    "cpu": 0,
+    "ram": 26.9248515426976,
+    "disk": 26.9983769121111,
+    "swap": 0,
+    "latency": 1,
+    "last_update": "0001-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "RackNerd2026新年特别版",
+    "line": "Cogent",
+    "price": "11.29$",
+    "expiry": "03/27/2027",
+    "cpu": 0,
+    "ram": 69.2663198113975,
+    "disk": 36.1272622954784,
+    "swap": 15.3728876060171,
+    "latency": 1,
+    "last_update": "0001-01-01T00:00:00Z"
+  }
+]
+```
+[这里](https://tanzhen.a057.net/api)
+2.更新默认html页面
+ 1.增加Swap占用显示
+ 2.每项资源显示详细占用数值
+
+
+
+新安装的获取的是最新的版本
+之前安装过的需要手动去
+`https://node1-rn.a05777.uk:8443/dows/tanzhen/server-bin`
+下载新版本并且替换，客户端未改变
+新版htm
+`https://node1-rn.a05777.uk:8443/dows/tanzhen/jiankong.html`
+旧版html&服务端
+`https://node1-rn.a05777.uk:8443/dows/tanzhen/server-bin2`
+`https://node1-rn.a05777.uk:8443/dows/tanzhen/jiankong.html2`
+
+开发经历：用Claude想偷懒，把代码丢给claude，没想到免费版额度不够，还是用的Gemini，上传新的服务端的时候SFTP掉了3次，编辑html的时候SSH掉了一次，哪家运营商：世界加钱可及
